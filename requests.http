@@ -1,0 +1,42 @@
+GET http://localhost:4000/
+
+###
+GET http://localhost:4000/api/planos
+Content-Type: application/json
+
+###
+GET http://localhost:4000/api/planos
+Content-Type: application/json
+X-Api-Key: c2e3a531cbafa0e57e91be61b8a38c8ebd388a8bbdd18a77
+
+###
+GET http://localhost:4000/api/depoimentos
+Content-Type: application/json
+X-Api-Key: c2e3a531cbafa0e57e91be61b8a38c8ebd388a8bbdd18a77
+
+###
+GET http://localhost:4000/api/perguntas
+Content-Type: application/json
+X-Api-Key: c2e3a531cbafa0e57e91be61b8a38c8ebd388a8bbdd18a77
+
+###
+POST http://localhost:4000/api/contato
+Content-Type: application/json
+X-Api-Key: c2e3a531cbafa0e57e91be61b8a38c8ebd388a8bbdd18a77
+
+{
+  "nome": "Adriano de Oliveira",
+  "email": "adriano.o@ufsc.br",
+  "empresa": "UFSC",
+  "mensagem": "Teste de contato"
+}
+
+###
+
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "ana@fluxo.exemplo",
+  "senha":"fluxo123"
+}

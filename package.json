@@ -1,0 +1,17 @@
+{
+  "name": "fluxo-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API REST em Node.js + Express + SQLite (node:sqlite) para o produto fictício Fluxo.",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "seed": "node src/db/seed.js"
+  },
+  "dependencies": {
+    "cors": "2.8.6",
+    "dotenv": "18.0.9",
+    "express": "5.3.0"
+  }
+}
